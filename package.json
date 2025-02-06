@@ -1,0 +1,27 @@
+{
+  "name": "internal_server_controller",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OuternetLondon/internal_server_controller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OuternetLondon/internal_server_controller/issues"
+  },
+  "homepage": "https://github.com/OuternetLondon/internal_server_controller#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "osc": "^2.4.5",
+    "socket.io-client": "^4.8.1"
+  }
+}
